@@ -1329,4 +1329,80 @@ Wire Wire Line
 Wire Wire Line
 	10000 4350 10000 4250
 Connection ~ 10000 4250
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5EAC38CC
+P 9900 1750
+F 0 "J?" H 10008 2031 50  0000 C CNN
+F 1 "Board_Y" H 10008 1940 50  0000 C CNN
+F 2 "GhettoTMC:MOLEX_70553-0038" H 9900 1750 50  0001 C CNN
+F 3 "~" H 9900 1750 50  0001 C CNN
+	1    9900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5EAC4D8C
+P 9900 1150
+F 0 "J?" H 10008 1431 50  0000 C CNN
+F 1 "Board_X" H 10008 1340 50  0000 C CNN
+F 2 "GhettoTMC:MOLEX_70553-0038" H 9900 1150 50  0001 C CNN
+F 3 "~" H 9900 1150 50  0001 C CNN
+	1    9900 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5EAC51EC
+P 9900 2650
+F 0 "J?" H 10008 2931 50  0000 C CNN
+F 1 "Board_Z" H 10008 2840 50  0000 C CNN
+F 2 "GhettoTMC:MOLEX_70553-0038" H 9900 2650 50  0001 C CNN
+F 3 "~" H 9900 2650 50  0001 C CNN
+	1    9900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5EAC5E5C
+P 9900 3550
+F 0 "J?" H 10008 3831 50  0000 C CNN
+F 1 "Board_E" H 10008 3740 50  0000 C CNN
+F 2 "GhettoTMC:MOLEX_70553-0038" H 9900 3550 50  0001 C CNN
+F 3 "~" H 9900 3550 50  0001 C CNN
+	1    9900 3550
+	1    0    0    -1  
+$EndComp
+Text GLabel 10100 1950 2    50   Input ~ 0
+Y_DIAG
+Text GLabel 10100 1850 2    50   Input ~ 0
+Y_DIR
+Text GLabel 10100 1650 2    50   Input ~ 0
+Y_EN
+Text GLabel 10100 1750 2    50   Input ~ 0
+Y_STEP
+Text GLabel 10100 1350 2    50   Input ~ 0
+X_DIAG
+Text GLabel 10100 1250 2    50   Input ~ 0
+X_DIR
+Text GLabel 10100 1050 2    50   Input ~ 0
+X_EN
+Text GLabel 10100 1150 2    50   Input ~ 0
+X_STEP
+Text GLabel 10100 2850 2    50   Input ~ 0
+Z_DIAG
+Text GLabel 10100 2750 2    50   Input ~ 0
+Z_DIR
+Text GLabel 10100 2550 2    50   Input ~ 0
+Z_EN
+Text GLabel 10100 2650 2    50   Input ~ 0
+Z_STEP
+Text GLabel 10100 3750 2    50   Input ~ 0
+E_DIAG
+Text GLabel 10100 3650 2    50   Input ~ 0
+E_DIR
+Text GLabel 10100 3450 2    50   Input ~ 0
+E_EN
+Text GLabel 10100 3550 2    50   Input ~ 0
+E_STEP
 $EndSCHEMATC
