@@ -1318,81 +1318,37 @@ Wire Wire Line
 Wire Wire Line
 	10000 4350 10000 4250
 Connection ~ 10000 4250
-$Comp
-L Connector:Conn_01x04_Male J?
-U 1 1 5EAC38CC
-P 9900 1750
-F 0 "J?" H 10008 2031 50  0000 C CNN
-F 1 "Board_Y" H 10008 1940 50  0000 C CNN
-F 2 "GhettoTMC:MOLEX_70553-0038" H 9900 1750 50  0001 C CNN
-F 3 "~" H 9900 1750 50  0001 C CNN
-	1    9900 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Male J?
-U 1 1 5EAC4D8C
-P 9900 1150
-F 0 "J?" H 10008 1431 50  0000 C CNN
-F 1 "Board_X" H 10008 1340 50  0000 C CNN
-F 2 "GhettoTMC:MOLEX_70553-0038" H 9900 1150 50  0001 C CNN
-F 3 "~" H 9900 1150 50  0001 C CNN
-	1    9900 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Male J?
-U 1 1 5EAC51EC
-P 9900 2650
-F 0 "J?" H 10008 2931 50  0000 C CNN
-F 1 "Board_Z" H 10008 2840 50  0000 C CNN
-F 2 "GhettoTMC:MOLEX_70553-0038" H 9900 2650 50  0001 C CNN
-F 3 "~" H 9900 2650 50  0001 C CNN
-	1    9900 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Male J?
-U 1 1 5EAC5E5C
-P 9900 3550
-F 0 "J?" H 10008 3831 50  0000 C CNN
-F 1 "Board_E" H 10008 3740 50  0000 C CNN
-F 2 "GhettoTMC:MOLEX_70553-0038" H 9900 3550 50  0001 C CNN
-F 3 "~" H 9900 3550 50  0001 C CNN
-	1    9900 3550
-	1    0    0    -1  
-$EndComp
-Text GLabel 10100 1950 2    50   Input ~ 0
+Text GLabel 10100 2000 2    50   Input ~ 0
 Y_DIAG
-Text GLabel 10100 1850 2    50   Input ~ 0
+Text GLabel 10100 1900 2    50   Input ~ 0
 Y_DIR
-Text GLabel 10100 1650 2    50   Input ~ 0
+Text GLabel 10100 1600 2    50   Input ~ 0
 Y_EN
-Text GLabel 10100 1750 2    50   Input ~ 0
+Text GLabel 10100 1700 2    50   Input ~ 0
 Y_STEP
-Text GLabel 10100 1350 2    50   Input ~ 0
+Text GLabel 10100 1400 2    50   Input ~ 0
 X_DIAG
-Text GLabel 10100 1250 2    50   Input ~ 0
+Text GLabel 10100 1300 2    50   Input ~ 0
 X_DIR
-Text GLabel 10100 1050 2    50   Input ~ 0
+Text GLabel 10100 1000 2    50   Input ~ 0
 X_EN
-Text GLabel 10100 1150 2    50   Input ~ 0
+Text GLabel 10100 1100 2    50   Input ~ 0
 X_STEP
-Text GLabel 10100 2850 2    50   Input ~ 0
+Text GLabel 10100 2900 2    50   Input ~ 0
 Z_DIAG
-Text GLabel 10100 2750 2    50   Input ~ 0
+Text GLabel 10100 2800 2    50   Input ~ 0
 Z_DIR
-Text GLabel 10100 2550 2    50   Input ~ 0
+Text GLabel 10100 2500 2    50   Input ~ 0
 Z_EN
-Text GLabel 10100 2650 2    50   Input ~ 0
+Text GLabel 10100 2600 2    50   Input ~ 0
 Z_STEP
-Text GLabel 10100 3750 2    50   Input ~ 0
+Text GLabel 10100 3800 2    50   Input ~ 0
 E_DIAG
-Text GLabel 10100 3650 2    50   Input ~ 0
+Text GLabel 10100 3700 2    50   Input ~ 0
 E_DIR
-Text GLabel 10100 3450 2    50   Input ~ 0
+Text GLabel 10100 3400 2    50   Input ~ 0
 E_EN
-Text GLabel 10100 3550 2    50   Input ~ 0
+Text GLabel 10100 3500 2    50   Input ~ 0
 E_STEP
 $Comp
 L Connector:Conn_01x02_Male J?
@@ -1400,7 +1356,7 @@ U 1 1 5EAE4A69
 P 9150 4800
 F 0 "J?" H 9258 4981 50  0000 C CNN
 F 1 "POWER IN" H 9258 4890 50  0000 C CNN
-F 2 "" H 9150 4800 50  0001 C CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MC-G_02x5.08mm_Angled" H 9150 4800 50  0001 C CNN
 F 3 "~" H 9150 4800 50  0001 C CNN
 	1    9150 4800
 	1    0    0    -1  
@@ -1440,6 +1396,54 @@ F 1 "GND" H 9555 4727 50  0000 C CNN
 F 2 "" H 9550 4900 50  0001 C CNN
 F 3 "" H 9550 4900 50  0001 C CNN
 	1    9550 4900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10100 1200
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 5EB3A24B
+P 9900 1800
+F 0 "J?" H 10008 2181 50  0000 C CNN
+F 1 "Board Y" H 10008 2090 50  0000 C CNN
+F 2 "GhettoTMC:MOLEX_70553-0039" H 9900 1800 50  0001 C CNN
+F 3 "~" H 9900 1800 50  0001 C CNN
+	1    9900 1800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10100 1800
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 5EB41CC3
+P 9900 2700
+F 0 "J?" H 10008 3081 50  0000 C CNN
+F 1 "Board Z" H 10008 2990 50  0000 C CNN
+F 2 "GhettoTMC:MOLEX_70553-0039" H 9900 2700 50  0001 C CNN
+F 3 "~" H 9900 2700 50  0001 C CNN
+	1    9900 2700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10100 2700
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 5EB49933
+P 9900 3600
+F 0 "J?" H 10008 3981 50  0000 C CNN
+F 1 "Board E" H 10008 3890 50  0000 C CNN
+F 2 "GhettoTMC:MOLEX_70553-0039" H 9900 3600 50  0001 C CNN
+F 3 "~" H 9900 3600 50  0001 C CNN
+	1    9900 3600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10100 3600
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 5EB1718C
+P 9900 1200
+F 0 "J?" H 10008 1581 50  0000 C CNN
+F 1 "Board X" H 10008 1490 50  0000 C CNN
+F 2 "GhettoTMC:MOLEX_70553-0039" H 9900 1200 50  0001 C CNN
+F 3 "~" H 9900 1200 50  0001 C CNN
+	1    9900 1200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
