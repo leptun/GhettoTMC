@@ -572,17 +572,6 @@ F 3 "" H 6200 2200 50  0001 C CNN
 	1    6200 2200
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5EA23985
-P 6200 2300
-F 0 "#PWR?" H 6200 2050 50  0001 C CNN
-F 1 "GND" V 6205 2172 50  0000 R CNN
-F 2 "" H 6200 2300 50  0001 C CNN
-F 3 "" H 6200 2300 50  0001 C CNN
-	1    6200 2300
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6200 2300 6100 2300
 Wire Wire Line
@@ -836,17 +825,6 @@ F 2 "" H 1700 4200 50  0001 C CNN
 F 3 "~" H 1700 4200 50  0001 C CNN
 	1    1700 4200
 	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5EAD959C
-P 3100 4300
-F 0 "#PWR?" H 3100 4050 50  0001 C CNN
-F 1 "GND" V 3105 4172 50  0000 R CNN
-F 2 "" H 3100 4300 50  0001 C CNN
-F 3 "" H 3100 4300 50  0001 C CNN
-	1    3100 4300
-	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -1124,28 +1102,6 @@ F 3 "~" H 4800 4200 50  0001 C CNN
 	1    4800 4200
 	0    1    1    0   
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5EAD9638
-P 6200 4300
-F 0 "#PWR?" H 6200 4050 50  0001 C CNN
-F 1 "GND" V 6205 4172 50  0000 R CNN
-F 2 "" H 6200 4300 50  0001 C CNN
-F 3 "" H 6200 4300 50  0001 C CNN
-	1    6200 4300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5EAD963E
-P 6200 4400
-F 0 "#PWR?" H 6200 4150 50  0001 C CNN
-F 1 "GND" V 6205 4272 50  0000 R CNN
-F 2 "" H 6200 4400 50  0001 C CNN
-F 3 "" H 6200 4400 50  0001 C CNN
-	1    6200 4400
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6200 4400 6100 4400
 Wire Wire Line
@@ -1161,4 +1117,155 @@ F 3 "" H 2000 3850 50  0001 C CNN
 	1    2500 4150
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E9E3D53
+P 6200 2300
+F 0 "#PWR?" H 6200 2150 50  0001 C CNN
+F 1 "+5V" V 6215 2428 50  0000 L CNN
+F 2 "" H 6200 2300 50  0001 C CNN
+F 3 "" H 6200 2300 50  0001 C CNN
+	1    6200 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E9E465C
+P 6200 4300
+F 0 "#PWR?" H 6200 4150 50  0001 C CNN
+F 1 "+5V" V 6215 4428 50  0000 L CNN
+F 2 "" H 6200 4300 50  0001 C CNN
+F 3 "" H 6200 4300 50  0001 C CNN
+	1    6200 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E9EBC6F
+P 6200 4400
+F 0 "#PWR?" H 6200 4250 50  0001 C CNN
+F 1 "+5V" V 6215 4528 50  0000 L CNN
+F 2 "" H 6200 4400 50  0001 C CNN
+F 3 "" H 6200 4400 50  0001 C CNN
+	1    6200 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5EA06571
+P 3100 4300
+F 0 "#PWR?" H 3100 4150 50  0001 C CNN
+F 1 "+5V" V 3115 4428 50  0000 L CNN
+F 2 "" H 3100 4300 50  0001 C CNN
+F 3 "" H 3100 4300 50  0001 C CNN
+	1    3100 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5EA0E71E
+P 9150 1150
+F 0 "J?" H 9258 1431 50  0000 C CNN
+F 1 "Stepper_X" H 9258 1340 50  0000 C CNN
+F 2 "" H 9150 1150 50  0001 C CNN
+F 3 "~" H 9150 1150 50  0001 C CNN
+	1    9150 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5EA10DB0
+P 9150 1750
+F 0 "J?" H 9258 2031 50  0000 C CNN
+F 1 "Stepper_Y" H 9258 1940 50  0000 C CNN
+F 2 "" H 9150 1750 50  0001 C CNN
+F 3 "~" H 9150 1750 50  0001 C CNN
+	1    9150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5EA11A2D
+P 9150 2350
+F 0 "J?" H 9258 2631 50  0000 C CNN
+F 1 "Stepper_Z1" H 9258 2540 50  0000 C CNN
+F 2 "" H 9150 2350 50  0001 C CNN
+F 3 "~" H 9150 2350 50  0001 C CNN
+	1    9150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5EA12536
+P 9150 2950
+F 0 "J?" H 9258 3231 50  0000 C CNN
+F 1 "Stepper_Z2" H 9258 3140 50  0000 C CNN
+F 2 "" H 9150 2950 50  0001 C CNN
+F 3 "~" H 9150 2950 50  0001 C CNN
+	1    9150 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5EA14BF3
+P 9150 3550
+F 0 "J?" H 9258 3831 50  0000 C CNN
+F 1 "Stepper_E" H 9258 3740 50  0000 C CNN
+F 2 "" H 9150 3550 50  0001 C CNN
+F 3 "~" H 9150 3550 50  0001 C CNN
+	1    9150 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 2350 9500 2350
+Wire Wire Line
+	9500 2350 9500 2850
+Wire Wire Line
+	9500 2850 9350 2850
+Wire Wire Line
+	9350 2550 9450 2550
+Wire Wire Line
+	9450 2550 9450 3050
+Wire Wire Line
+	9450 3050 9350 3050
+Wire Wire Line
+	9350 3150 9600 3150
+Wire Wire Line
+	9350 2950 9600 2950
+Wire Wire Line
+	9350 2450 9600 2450
+Wire Wire Line
+	9350 2250 9600 2250
+Text GLabel 9350 1050 2    50   Input ~ 0
+X_1b
+Text GLabel 9350 1750 2    50   Input ~ 0
+Y_1a
+Text GLabel 9350 1850 2    50   Input ~ 0
+Y_2a
+Text GLabel 9350 1950 2    50   Input ~ 0
+Y_2b
+Text GLabel 9350 1650 2    50   Input ~ 0
+Y_1b
+Text GLabel 9350 1150 2    50   Input ~ 0
+X_1a
+Text GLabel 9350 1250 2    50   Input ~ 0
+X_2a
+Text GLabel 9350 1350 2    50   Input ~ 0
+X_2b
+Text GLabel 9350 3550 2    50   Input ~ 0
+E_1a
+Text GLabel 9350 3650 2    50   Input ~ 0
+E_2a
+Text GLabel 9350 3750 2    50   Input ~ 0
+E_2b
+Text GLabel 9350 3450 2    50   Input ~ 0
+E_1b
+Text GLabel 9600 2950 2    50   Input ~ 0
+Z_1a
+Text GLabel 9600 2450 2    50   Input ~ 0
+Z_2a
+Text GLabel 9600 3150 2    50   Input ~ 0
+Z_2b
+Text GLabel 9600 2250 2    50   Input ~ 0
+Z_1b
 $EndSCHEMATC
