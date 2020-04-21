@@ -1356,7 +1356,7 @@ U 1 1 5EAE4A69
 P 9150 4800
 F 0 "J7" H 9258 4981 50  0000 C CNN
 F 1 "POWER IN" H 9258 4890 50  0000 C CNN
-F 2 "Connectors_Phoenix:PhoenixContact_MC-G_02x5.08mm_Angled" H 9150 4800 50  0001 C CNN
+F 2 "GhettoTMC:PhoenixContact_MC-G_02x5.08mm_Angled" H 9150 4800 50  0001 C CNN
 F 3 "~" H 9150 4800 50  0001 C CNN
 	1    9150 4800
 	1    0    0    -1  
