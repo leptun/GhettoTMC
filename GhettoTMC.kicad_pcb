@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 9)
+    (drawings 10)
     (tracks 317)
     (zones 0)
     (modules 50)
@@ -21,7 +21,7 @@
     (37 F.SilkS user)
     (38 B.Mask user hide)
     (39 F.Mask user hide)
-    (40 Dwgs.User user hide)
+    (40 Dwgs.User user)
     (41 Cmts.User user hide)
     (42 Eco1.User user hide)
     (43 Eco2.User user hide)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 1.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 1)
     (user_trace_width 1.5)
@@ -2114,6 +2114,18 @@
     )
   )
 
+  (dimension 63.5 (width 0.15) (layer Dwgs.User)
+    (gr_text "63.500 mm" (at 175.29 111.76 270) (layer Dwgs.User)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (feature1 (pts (xy 166.37 143.51) (xy 174.576421 143.51)))
+    (feature2 (pts (xy 166.37 80.01) (xy 174.576421 80.01)))
+    (crossbar (pts (xy 173.99 80.01) (xy 173.99 143.51)))
+    (arrow1a (pts (xy 173.99 143.51) (xy 173.403579 142.383496)))
+    (arrow1b (pts (xy 173.99 143.51) (xy 174.576421 142.383496)))
+    (arrow2a (pts (xy 173.99 80.01) (xy 173.403579 81.136504)))
+    (arrow2b (pts (xy 173.99 80.01) (xy 174.576421 81.136504)))
+  )
   (gr_text "GhettoTMC_SPR3\nTMC2209" (at 122.555 101.6) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.5) italic))
   )
